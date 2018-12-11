@@ -58,7 +58,7 @@ public class GuestBook implements ActionListener {
 				x+="Guest #" + (i+1) + " " + s + "\n";
 				System.out.println(x);
 			}
-			//JOptionPane.showMessageDialog(x);
+			JOptionPane.showMessageDialog(null, x);
 			
 		}
 		else {
